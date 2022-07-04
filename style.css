@@ -3,31 +3,84 @@ body{
     margin: 0%;
 
 }
-span{
+#orange{
       color: orange;
 }
-h1{
-    font-size: 40px;
+#font{
+       font-size: 50px;
 }
-.first{
+h1{
+    font-size: 50px;
+}
+#first{
         display: flex; 
         background-image: url('images/top-banner.png');
         background-repeat: no-repeat;
+        margin-bottom: 100px;
+        
 }
 .half-width{
-             width: 50%;
+             width: 60%;
              padding-left: 5%;
 }
-.half-width img{
+#rakib{
                  width: 80%;
-                 
+                 margin-top: 10px;
                  border-radius: 40%;
 }
 .half-width a{
                  text-decoration: none;
                  border: 1px solid white;
                  padding: 8px 30px;
-                 background-color: rgb(246, 130, 85);
+                 background-image:linear-gradient(rgb(238, 170, 43), rgb(228, 62, 33));
                  color: white;
                  border-radius: 5px;
+}
+#alia{
+       width: 100%;
+       border-radius: 30%;
+       height: 350px;
+
+}
+.second{
+         display: flex;
+         background-image: url('images/dream-bg.png');
+         background-repeat: no-repeat;
+         background-position: right;
+         margin-bottom: 140px;
+}
+h2{
+    font-size: 30px;
+}
+#experience{
+             font-size: 40px;
+             
+}
+#flexibility{
+                display: flex;
+}
+.box{
+       width: 50%;
+       box-shadow: 10px 10px 80px grey;
+       margin-left: 5%;
+       margin-right: 5%;
+       padding-left: 10px;
+       border-left: 8px solid tomato;
+       border-radius: 5px;
+}
+#h2{
+       font-size: 40px;
+}
+.last{
+            border-left: 8px solid blue;
+}
+#third{
+         background-image: url('images/exp-bg.png');
+         background-repeat: no-repeat;
+         background-position: left;
+         margin-bottom: 100px;
+}
+footer{
+          text-align: center;
+          
 }
