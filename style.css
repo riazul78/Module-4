@@ -1,8 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
-    max-width: 368px;
-
+    
 }
 #orange{
       color: orange;
@@ -18,11 +17,15 @@ h1{
         background-image: url('images/top-banner.png');
         background-repeat: no-repeat;
         margin-bottom: 100px;
+        width: 100%;
+        
+    
         
 }
 .half-width{
              width: 60%;
              padding-left: 5%;
+             
 }
 #rakib{
                  width: 80%;
@@ -49,6 +52,9 @@ h1{
          background-repeat: no-repeat;
          background-position: right;
          margin-bottom: 140px;
+         
+         
+         
 }
 h2{
     font-size: 30px;
@@ -62,12 +68,13 @@ h2{
 }
 .box{
        width: 50%;
-       box-shadow: 10px 10px 80px grey;
+       box-shadow: 10px 10px 100px grey;
        margin-left: 5%;
        margin-right: 5%;
        padding-left: 10px;
        border-left: 8px solid tomato;
        border-radius: 5px;
+       
 }
 #h2{
        font-size: 40px;
@@ -80,8 +87,19 @@ h2{
          background-repeat: no-repeat;
          background-position: left;
          margin-bottom: 100px;
+         width: 100%;
+         
+        
 }
 footer{
           text-align: center;
           
+}
+.box:hover{
+            background: rgb(239, 191, 102);
+            color: black;
+}
+a:hover{
+         background: coral;
+         color:wheat;
 }
